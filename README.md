@@ -1,3 +1,48 @@
+# 🌟 LEO-Satellite-Communication-Simulation-Platform
+LEO-Satellite-Communication-Simulation-Platform based on STK &amp; OPNET
+
+## 🛷 How to use
+
+### Build
+windows - MinGW - make
+```terminal
+mkdir build
+cd build
+cmake -G "MinGW Makefiles" ..
+cmake --build .
+```
+
+windows - ninja
+```terminal
+mkdir build
+cd build
+cmake -G "Ninja" ..
+cmake --build .
+```
+
+### Run
+
+```terminal
+./bin/LEO
+```
+
+## 🎄 Project Structure
+
+```terminal
+├─bin                   // Executable files
+├─dependencies          // Third-party librariesr
+│  ├─include
+│  └─stk
+│      ├─Debug
+│      └─Release
+├─include               // Header files
+├─libs                  // Static libraries
+│  ├─Debug
+│  └─Release
+├─src                   // Source files
+└─test                  // Test files
+```
+
 # LEO-Satellite-Communication-Simulation-Platform
 
 [![license](https://img.shields.io/github/license/:user/:repo.svg)](LICENSE)
