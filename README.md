@@ -1,8 +1,33 @@
-# LEO-Satellite-Communication-Simulation-Platform
+# 🌟 LEO-Satellite-Communication-Simulation-Platform
 LEO-Satellite-Communication-Simulation-Platform based on STK &amp; OPNET
 >>>>>>> 3812f6c13ba6fc5f2bbed5dad36ca750332ead87
 
-## Project Structure
+## 🛷 How to use
+
+### Build
+windows - MinGW - make
+```terminal
+mkdir build
+cd build
+cmake -G "MinGW Makefiles" ..
+cmake --build .
+```
+
+windows - ninja
+```terminal
+mkdir build
+cd build
+cmake -G "Ninja" ..
+cmake --build .
+```
+
+### Run
+
+```terminal
+./bin/LEO
+```
+
+## 🎄 Project Structure
 
 ```terminal
 ├─bin                   // Executable files

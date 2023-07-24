@@ -1,9 +1,18 @@
+########################################################################
+# Project setup
+########################################################################
 cmake_minimum_required(VERSION 3.0)
-cmake_policy(SET CMP0048 NEW)
-project(MyProj VERSION 1.0)
+project(LEO VERSION 1.0)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_GENERATOR MinGW Makefiles)
 set(CMAKE_BUILD_TYPE Debug)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_COMPILER g++)
+set(CMAKE_C_COMPILER gcc)
+
+message( STATUS "CMAKE_SYSTEM: " ${CMAKE_SYSTEM} )
+message( STATUS "CMAKE_SYSTEM_PROCESSOR: " ${CMAKE_SYSTEM_PROCESSOR} )
+message( STATUS "CMAKE_CXX_COMPILER: " ${CMAKE_CXX_COMPILER} )
 
 set(HEADER_DIR ${PROJECT_SOURCE_DIR}/include)
 set(SOURCE_DIR ${PROJECT_SOURCE_DIR}/src)
