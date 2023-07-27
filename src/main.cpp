@@ -1,8 +1,4 @@
-#include "iostream"
-
-void printHelloWorld(){
-    std::cout << "Hello World!" << std::endl;
-}
+#include "demo/demo_main.h"
 
 int main(){
     printHelloWorld();
