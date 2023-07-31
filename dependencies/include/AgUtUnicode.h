@@ -6,8 +6,8 @@
 
 
 #if defined(__cplusplus)
-#ifndef AGI_COMPONENTS
-#include <atlbase.h> 
+#ifndef AGI_COMPONENTSz
+#include <atlbase.h>
 #endif
 #include <string>
 #include <stdexcept>
